@@ -2,9 +2,68 @@
 <html>
 	<head>
 		<title>AP CS Project</title>
+		
+		<link rel="stylesheet" href="home.css">
+		<script src="smooth-scroll.js"></script>
+		<script src="gumshoe.js"></script>
 	</head>
-	<body>
-		<h1>Home</h1>
-		<p>Hello</p>
+	<body id="top">
+		<header>
+			<h1>APCS Michael Xing</h1>
+		</header>
+		
+		<nav data-gumshoe>
+			<a data-scroll href="#top" class="active">Home</a>
+			<a data-scroll href="#ai">AI Basics</a>
+			<a data-scroll href="#greep">Greeps</a>
+				<a data-scroll class="SubLink">Greeps Information</a>
+				<a data-scroll class="SubLink">My Greeps</a>
+			<a data-scroll href="#rubric">Project Rubric</a>
+		</nav>
+		
+		<div id="ContentWrap">
+			
+			<h1 class="MainTitle">Artificial Intelligence</h1>
+			
+			<section>
+				<h1>Home</h1>
+				<div style="float:left;padding:10px 10px 10px 0;">
+					<img src="https://michaelxing.tk/aktsa/img/nats.jpg" alt="Myself" />
+				</div>
+				<p>My name is Michael Xing. Computers are cool.</p>
+			</section>
+			
+			<section id="ai">
+				<h1>Basics of Artificial Intelligence</h1>
+				<h2>Explanation</h2>
+				<p>Artifical Intelligence is an imitation of intelligent behavior.</p>
+			</section>
+			
+			<section id="greep">
+				<h1>Greeps</h1>
+			</section>
+			
+			<section id="rubric">
+				<h1>Project Rubric</h1>
+			</section>
+			
+		</div>
+		
+		
+		
+		<script>
+			
+			smoothScroll.init(
+				{
+					offset: 100
+				});
+				
+			gumshoe.init(
+				{
+					offset: 400
+				});
+			
+		</script>
+		
 	</body>
 </html>
