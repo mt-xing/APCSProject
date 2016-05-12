@@ -56,6 +56,10 @@ a.Citation:active{
 
 .FloatImg{
 	float:right;
-	max-width:20vw;
-	max-height:20vh;
+	width:27.8vh;
+	height:20vh;
+
+	object-fit:cover;
+	object-position:center;
+
 }
