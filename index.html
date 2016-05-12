@@ -3,67 +3,117 @@
 	<head>
 		<title>AP CS Project</title>
 		
-		<link rel="stylesheet" href="home.css">
-		<script src="smooth-scroll.js"></script>
-		<script src="gumshoe.js"></script>
+		<link rel="stylesheet" href="https://code.getmdl.io/1.1.3/material.indigo-light_green.min.css" />
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		<script defer src="https://code.getmdl.io/1.1.3/material.min.js"></script>
+		
+		<link rel="stylesheet" href="home.css" />
 	</head>
-	<body id="top">
-		<header>
-			<h1>APCS Michael Xing</h1>
-		</header>
-		
-		<nav data-gumshoe>
-			<a data-scroll href="#top" class="active">Home</a>
-			<a data-scroll href="#ai">AI Basics</a>
-			<a data-scroll href="#greep">Greeps</a>
-				<a data-scroll class="SubLink">Greeps Information</a>
-				<a data-scroll class="SubLink">My Greeps</a>
-			<a data-scroll href="#rubric">Project Rubric</a>
-		</nav>
-		
-		<div id="ContentWrap">
-			
-			<h1 class="MainTitle">Artificial Intelligence</h1>
-			
-			<section>
-				<h1>Home</h1>
-				<div style="float:left;padding:10px 10px 10px 0;">
-					<img src="https://michaelxing.tk/aktsa/img/nats.jpg" alt="Myself" />
+	<body>
+	    <!-- Simple header with scrollable tabs. -->
+		<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+			<header class="mdl-layout__header">
+				<div class="mdl-layout--large-screen-only mdl-layout__header-row"></div>
+				<div class="mdl-layout--large-screen-only mdl-layout__header-row">
+					<!-- Title -->
+					<h1>Michael Xing - Greeps Project</h1>
 				</div>
-				<p>My name is Michael Xing. Computers are cool.</p>
-			</section>
-			
-			<section id="ai">
-				<h1>Basics of Artificial Intelligence</h1>
-				<h2>Explanation</h2>
-				<p>Artifical Intelligence is an imitation of intelligent behavior.</p>
-			</section>
-			
-			<section id="greep">
-				<h1>Greeps</h1>
-			</section>
-			
-			<section id="rubric">
-				<h1>Project Rubric</h1>
-			</section>
-			
+				<div class="mdl-layout--large-screen-only mdl-layout__header-row"></div>
+				<!-- Tabs -->
+				<div class="mdl-layout__tab-bar mdl-js-ripple-effect">
+					<a href="#scroll-tab-1" class="mdl-layout__tab is-active">Home</a>
+					<a href="#scroll-tab-2" class="mdl-layout__tab">AI Basics</a>
+					<a href="#scroll-tab-3" class="mdl-layout__tab">Greeps</a>
+					<a href="#scroll-tab-4" class="mdl-layout__tab">Project Rubric</a>
+				</div>
+			</header><!--
+			<div class="mdl-layout__drawer">
+				<span class="mdl-layout-title">Title</span>
+			</div>-->
+			<main class="mdl-layout__content">
+				<section class="mdl-layout__tab-panel is-active" id="scroll-tab-1">
+					<div class="page-content">
+						
+						<div class="demo-card-wide mdl-card mdl-shadow--2dp">
+							<div class="card-right">
+								<div class="mdl-card__title">
+									<h1 class="mdl-card__title-text">Home</h1>
+								</div>
+								<div class="mdl-card__supporting-text">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+									Mauris sagittis pellentesque lacus eleifend lacinia...
+								</div>
+								<div class="mdl-card__actions mdl-card--border">
+									<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+										Get Started
+									</a>
+								</div>
+							</div>
+							<span class="card-left">
+								<img src="https://michaelxing.tk/aktsa/img/nats.jpg" alt="Michael Xing" />	
+							</span>
+						</div>
+						
+					</div>
+				</section>
+				<section class="mdl-layout__tab-panel" id="scroll-tab-2">
+					<div class="page-content">
+					
+						<div class="demo-card-wide mdl-card mdl-shadow--2dp">
+							<div class="mdl-card__title">
+								<h1 class="mdl-card__title-text">Artificial Intelligence - Explanation</h1>
+							</div>
+							<div class="mdl-card__supporting-text">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+								Mauris sagittis pellentesque lacus eleifend lacinia...
+							</div>
+							<div class="mdl-card__actions mdl-card--border">
+								<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+									Get Started
+								</a>
+							</div>
+						</div>
+						
+						<div class="demo-card-wide mdl-card mdl-shadow--2dp">
+							<div class="mdl-card__title">
+								<h2 class="mdl-card__title-text">Examples</h2>
+							</div>
+							<div class="mdl-grid thin-lines">
+								<div class="mdl-card__supporting-text mdl-cell mdl-cell--6-col">
+									<div class="mdl-card__title">
+										<h3 class="mdl-card__title-text">Fictional</h3>
+									</div>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+									Mauris sagittis pellentesque lacus eleifend lacinia...
+								</div>
+								
+								<div class="mdl-card__supporting-text mdl-cell mdl-cell--6-col">
+									<div class="mdl-card__title">
+										<h3 class="mdl-card__title-text">Real World</h3>
+									</div>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+									Mauris sagittis pellentesque lacus eleifend lacinia...
+								</div>	
+							</div>
+						</div>
+					
+					</div>
+				</section>
+				<section class="mdl-layout__tab-panel" id="scroll-tab-3">
+					<div class="page-content">
+						
+						
+						
+					</div>
+				</section>
+				<section class="mdl-layout__tab-panel" id="scroll-tab-4">
+					<div class="page-content">
+						
+						
+						
+					</div>
+				</section>
+			</main>
 		</div>
-		
-		
-		
-		<script>
-			
-			smoothScroll.init(
-				{
-					offset: 100
-				});
-				
-			gumshoe.init(
-				{
-					offset: 400
-				});
-			
-		</script>
-		
 	</body>
 </html>

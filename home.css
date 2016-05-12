@@ -1,96 +1,33 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans|Poiret+One);
-
-body{
-	padding:0;
-	margin:0;
-	font-family: 'Open Sans', sans-serif;
+.mdl-layout__content{
+	background:rgb(224, 224, 224);
 }
 
-h1, h2, h3, h4, h5, h6{
-	margin:0;
-	font-family: 'Poiret One', sans-serif;
-}
-
-section h1{
-	font-size:200%;
-}
-
-.MainTitle{
-	font-size:700%;
-}
-
-
-/*
- * Main Layout
- */
-
-header{
-	height:70px;
-	background:#2c3e50;
-	color:white;
-	position:fixed;
-	width:100%;
-	top:0;left:0;
-}
-header h1{
-	line-height:70px;
-	padding-left:20px;
-}
-
-nav{
-	position:fixed;
-	left:0;
-	top:70px;
-	width:calc(20vw - 60px);
-	margin:30px 20px;
-	border-color:black;
-	border-style:solid;
-	border-width:10px;
-}
-
-#ContentWrap{
-	margin-left:20vw;
-	padding-top:100px;
-	border-left-style:solid;
-	border-left-color:black;
-	padding-left:20px;
-}
-
-section{
-	margin-top:10px;
-	margin-bottom:10px;
-	min-height:80vh;
-}
-
-
-
-
-
-/*
- * Navigation Layout
- */
-
-nav a{
+.demo-card-wide{
+	width:80vw;
+	margin: 5vh auto;
+	min-height:initial;
 	display:block;
-	padding:10px;
-	background:#2c3e50;
-	color:white;
-	border-bottom-color:black;
-	border-bottom-style:solid;
-	transition: all 0.5s ease;
-	text-decoration:none;
 }
 
-nav a:hover{
-	background:#bdc3c7;
-	color:black;
+.page-content{
+	padding-top:5vh;
 }
 
-nav .SubLink{
-	padding-left:40px;
+/*.demo-card-wide > .mdl-card__title {
+	color: #fff;
+	height: 176px;
+	background: url('https://michaelxing.tk/aktsa/img/nats.jpg') center / cover;
+}*/
+
+.demo-card-wide .card-right{
+	float:right;
+	width:calc(100% - 204px);
 }
 
-nav .active{
-	background:white;
-	color:black;
+.demo-card-wide .card-left{
+	float:left;
+}
+
+.thin-lines div{
+	margin-top:0; padding-top:0;
 }
