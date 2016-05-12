@@ -31,3 +31,31 @@
 .thin-lines div{
 	margin-top:0; padding-top:0;
 }
+.thin-lines h3{
+	margin:0;
+	font-size:160%;
+	color:black;
+}
+.thin-lines h4{
+	margin:0;
+	font-size:125%;
+	color:black;
+}
+
+a.Citation{
+	color:inherit;
+	text-decoration:none;
+}
+a.Citation:hover{
+	text-decoration:underline;
+}
+a.Citation:active{
+	text-decoration:none;
+}
+
+
+.FloatImg{
+	float:right;
+	max-width:20vw;
+	max-height:20vh;
+}
