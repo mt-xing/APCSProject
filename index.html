@@ -142,5 +142,25 @@
 				</section>
 			</main>
 		</div>
+		
+		
+		<script>
+			//window.setInterval(waterfallHeader, 250);
+			document.getElementsByClassName("mdl-layout__content")[0].addEventListener("scroll", waterfallHeader);
+			function waterfallHeader(){
+				if(document.getElementsByClassName("mdl-layout__header")[0].clientHeight <= 48){
+					return;
+				}
+				
+				
+				if(document.getElementsByClassName("mdl-layout__content")[0].scrollTop < 5){
+					document.getElementsByClassName("mdl-layout__container")[0].style.top = 0;
+					document.getElementsByClassName("mdl-layout__container")[0].getElementsByTagName("DIV")[0].style.height = "100%";
+				} else{
+					document.getElementsByClassName("mdl-layout__container")[0].style.top = "-192px";
+					document.getElementsByClassName("mdl-layout__container")[0].getElementsByTagName("DIV")[0].style.height = "calc(100% + 192px)";
+				}
+			}
+		</script>
 	</body>
 </html>

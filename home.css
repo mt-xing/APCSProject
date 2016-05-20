@@ -63,3 +63,17 @@ a.Citation:active{
 	object-position:center;
 
 }
+
+.mdl-layout__container{
+	transition: top 0.25s ease !important;
+	top:0;
+}
+
+.mdl-layout--fixed-header{
+	transition: height 0.25s ease !important;
+	height:100%;
+}
+
+header{
+	min-height:0 !important;
+}
