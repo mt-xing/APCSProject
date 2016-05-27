@@ -77,3 +77,15 @@ a.Citation:active{
 header{
 	min-height:0 !important;
 }
+
+
+
+
+
+
+#RubricTable td{
+	padding:2px;
+}
+#RubricTable th{
+	padding:10px;
+}
