@@ -187,7 +187,13 @@ Thier, Dave. "'Halo 5's' Biggest Twist Is Pretty Brilliant." Forbes. Forbes Maga
 								<h2 class="mdl-card__title-text">Final Competition Version</h2>
 							</div>
 							<div class="mdl-card__supporting-text">
-								<p>Click <a href="https://github.com/mt-xing/APCSProject/blob/gh-pages/2016_B1_XingM_greep.java">here</a> to see the file on GitHub and click <a href="https://raw.githubusercontent.com/mt-xing/APCSProject/gh-pages/2016_B1_XingM_greep.java">here</a> to download.</p>
+								<!--<p>Click <a href="https://github.com/mt-xing/APCSProject/blob/gh-pages/2016_B1_XingM_greep.java">here</a> to see the file on GitHub and click <a href="https://raw.githubusercontent.com/mt-xing/APCSProject/gh-pages/2016_B1_XingM_greep.java">here</a> to download.</p>-->
+								My final Greeps code that I am using for the competition is available, hosted on GitHub, via the button below.
+							</div>
+							<div class="mdl-card__actions mdl-card--border">
+								<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" onclick="event.preventDefault();movetoDL();" href="https://raw.githubusercontent.com/mt-xing/APCSProject/gh-pages/2016_B1_XingM_greep.java">
+									Download
+								</a>
 							</div>
 						</div>
 						
@@ -332,6 +338,10 @@ Thier, Dave. "'Halo 5's' Biggest Twist Is Pretty Brilliant." Forbes. Forbes Maga
 			function showPiece(e){
 				document.getElementById(e).style.background = "yellow";
 				window.setTimeout(function(){document.getElementById(e).style.background = "";}, 5000);
+			}
+			
+			function movetoDL(){
+				setTimeout(function(){ window.location = "https://raw.githubusercontent.com/mt-xing/APCSProject/gh-pages/2016_B1_XingM_greep.java"; }, 300);
 			}
 		</script>
 	</body>
