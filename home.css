@@ -42,9 +42,19 @@
 	color:black;
 }
 
+a{
+	color:#1B5E20;
+	text-decoration:underline;
+}
+a:hover{
+	text-decoration:none;
+}
+
 a.Citation{
 	color:inherit;
 	text-decoration:none;
+	font-size:70%;
+	vertical-align: top;
 }
 a.Citation:hover{
 	text-decoration:underline;
@@ -82,10 +92,24 @@ header{
 
 
 
-
+#RubricTable{
+	border-collapse:collapse;
+}
 #RubricTable td{
 	padding:2px;
 }
 #RubricTable th{
-	padding:10px;
+	padding:3vh 10px;
+}
+#RubricTable .AddLine{
+	border-top-color:rgba(0,0,0,.54);
+	border-top-style:solid;
+	border-top-width:1px;
+}
+
+
+.Bibliography p{
+	padding-left:10px;
+	text-indent:-10px;
+	transition: background 0.5s ease;
 }
